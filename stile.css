@@ -1,0 +1,98 @@
+/* [___________Reset___________] */
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  width: 70%;
+  margin: auto;
+  background-image: url("Img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+}
+/* [___________Formattazione Contenitore___________] */
+.contenitore
+{
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 2%;
+  border-radius: 20px;
+  padding: 7%;
+}
+
+/* //////////////////////////// HEADER //////////////////////////// */
+/* [___________Allineamento testo al centro (Header e Nav)___________] */
+header, nav
+{
+  text-align: center;
+}
+/* [___________Logo LIM e Titolo Pagina___________] */
+header > img
+{
+  width: 25%;
+}
+header > h1
+{
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  color: #00dd00;
+}
+
+/* //////////////////////////// NAV //////////////////////////// */
+/* [___________Formattazione Nav___________] */
+nav
+{
+  background-color: #00dd00;
+  padding: 1% 0%;
+}
+/* [___________Formattazione Input nel Nav___________] */
+nav > input
+{
+  padding: 0.2% 1%;
+  margin-right: 0.2%
+}
+
+/* //////////////////////////// MAIN //////////////////////////// */
+/* [___________Formattazione Sezioni___________] */
+section
+{
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+section > .nomemonopattino
+{
+  font-weight: bold;
+  font-size: 150%;
+}
+section > div
+{
+  margin: 0.5% 0%;
+}
+/* [___________Formattazione Barra di Carica___________] */
+.carica
+{
+  border-radius: 5px;
+  height: 30px;
+  margin-bottom: 3%;
+}
+/* [___________Barre di Carica: colore e larghezza___________] */
+.media
+{
+  background-color: #f5b453;
+  width: 35%;
+}
+.alta
+{
+  background-color: #1ec31e;
+  width: 60%;
+}
+.bassa
+{
+  background-color: #be4141;
+  width: 15%;
+}
+/* [___________ Fine :) ___________] */
